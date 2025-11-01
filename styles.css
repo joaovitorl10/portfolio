@@ -329,7 +329,8 @@ body {
 
 .project-links {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
 .project-link {
@@ -340,6 +341,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
+    font-size: 0.9rem;
 }
 
 .project-link:hover {

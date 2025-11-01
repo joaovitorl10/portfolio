@@ -415,7 +415,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     background: white;
     border-radius: 8px;
     text-decoration: none;
@@ -432,6 +432,22 @@ body {
 .contact-method i {
     font-size: 1.5rem;
     color: #2563eb;
+    min-width: 24px;
+}
+
+.contact-method div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-method span {
+    font-weight: 600;
+    color: #333;
+}
+
+.contact-method small {
+    color: #666;
+    font-size: 0.9rem;
 }
 
 .contact-form {

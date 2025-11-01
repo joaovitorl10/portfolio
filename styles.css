@@ -346,6 +346,44 @@ body {
     color: #1d4ed8;
 }
 
+.demo-link {
+    background: #10b981;
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.demo-link:hover {
+    background: #059669 !important;
+    color: white !important;
+    transform: translateY(-2px);
+}
+
+.project-note {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #f3f4f6;
+    border-radius: 6px;
+    border-left: 4px solid #2563eb;
+}
+
+.project-note small {
+    color: #6b7280;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project-note code {
+    background: #e5e7eb;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+}
+
 /* Contact Section */
 .contact {
     padding: 5rem 0;

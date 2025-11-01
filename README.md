@@ -1,5 +1,7 @@
 # 🚀 Portfólio Pessoal - João Vitor
 
+**🌐 Acesse o portfólio online:** **https://joaovitorl10.github.io/portfolio**
+
 Um portfólio moderno e responsivo criado com HTML5, CSS3 e JavaScript vanilla. Apresenta projetos, habilidades e informações de contato de forma elegante e profissional.
 
 ## ✨ Características

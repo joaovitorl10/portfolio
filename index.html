@@ -476,15 +476,28 @@
                         </p>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
+                
+                <!-- Aviso de sucesso (será mostrado após envio) -->
+                <div id="form-success" style="display: none; background: #d4edda; color: #155724; padding: 15px; border-radius: 10px; margin-bottom: 20px; border: 1px solid #c3e6cb;">
+                    <i class="fas fa-check-circle"></i> <strong>Mensagem enviada com sucesso!</strong> 
+                    Obrigado pelo contato, responderei em breve.
+                </div>
+                
+                <form class="contact-form" action="https://formsubmit.co/jvitorcardoso056@gmail.com" method="POST">
+                    <!-- Configurações do FormSubmit -->
+                    <input type="hidden" name="_subject" value="Nova mensagem do portfólio - João Vitor">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://joaovitorl10.github.io/portfolio/#contact">
+                    
                     <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        <input type="text" name="name" placeholder="Seu nome" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Seu email" required>
+                        <input type="email" name="email" placeholder="Seu email" required>
                     </div>
                     <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                        <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
                 </form>

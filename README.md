@@ -4,6 +4,14 @@
 
 Um portfólio moderno e responsivo criado com HTML5, CSS3 e JavaScript vanilla. Apresenta projetos, habilidades e informações de contato de forma elegante e profissional.
 
+## 🆕 Últimas Atualizações (Novembro 2025)
+
+- ✅ **Adicionadas novas tecnologias**: C/C++ e Python na seção de habilidades
+- ✅ **Corrigida codificação UTF-8**: Todos os caracteres especiais funcionando corretamente  
+- ✅ **Atualizada descrição**: Seção hero agora menciona C/C++, Python e outras tecnologias
+- ✅ **Deploy automático**: Integração contínua com GitHub Actions funcionando perfeitamente
+- ✅ **Formulário funcional**: Sistema de contato integrado com FormSubmit
+
 ## ✨ Características
 
 - **Design Moderno**: Interface limpa e profissional
@@ -13,213 +21,195 @@ Um portfólio moderno e responsivo criado com HTML5, CSS3 e JavaScript vanilla. 
 - **Performance**: Carregamento rápido e otimizado
 - **Deploy Automático**: Integração com GitHub Pages
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Stack Tecnológico
 
-- **HTML5**: Estrutura semântica
-- **CSS3**: Estilização moderna com Grid e Flexbox
-- **JavaScript**: Interatividade e animações
+### Frontend
+- **HTML5**: Estrutura semântica moderna
+- **CSS3**: Estilização avançada com Grid e Flexbox
+- **JavaScript**: Interatividade e animações suaves
 - **Font Awesome**: Ícones profissionais
-- **Google Fonts**: Tipografia (Inter)
-- **GitHub Actions**: Deploy automático
+- **Google Fonts**: Tipografia elegante (Inter)
 
-## 🚀 Como Usar
+### Linguagens e Frameworks Destacados
+- **C/C++**: Fundamentos de programação e algoritmos
+- **Python**: Desenvolvimento backend com Flask
+- **JavaScript**: Frontend interativo e Vue.js
+- **PHP**: Desenvolvimento web tradicional
+- **Node.js**: Backend moderno e APIs
+- **Vue.js**: Framework frontend reativo
 
-### 1. Clone ou baixe o projeto
+### DevOps e Ferramentas
+- **Git**: Controle de versão
+- **GitHub Actions**: CI/CD automatizado
+- **GitHub Pages**: Hospedagem gratuita
+- **VS Code**: Ambiente de desenvolvimento
+
+## 🎯 Funcionalidades Principais
+
+### 🏠 Seção Hero
+- Apresentação profissional
+- Destaque para busca de estágio em TI
+- Links diretos para GitHub e LinkedIn
+- Call-to-action para projetos e oportunidades
+
+### 👤 Sobre Mim
+- Biografia detalhada
+- Grid visual de tecnologias
+- Trajetória de aprendizado (C/C++ → Web → Frameworks modernos)
+- Foco em desenvolvimento full-stack
+
+### 💼 Projetos em Destaque
+- **App Clima Vue.js**: SPA com API de clima
+- **Algoritmos & Estruturas**: Projetos educacionais em C/C++
+- **Clone Netflix**: Interface pixel-perfect com HTML/CSS
+- **Chatbot IA Básica**: Sistema conversacional temático
+- **Calculadora**: Interface moderna com JavaScript
+- **Jogo de Xadrez**: Lógica completa implementada
+
+### 📞 Contato
+- Formulário funcional integrado
+- Links para redes sociais
+- Informações de contato direto
+- Foco em oportunidades de estágio
+
+## 🚀 Como Usar Este Template
+
+### 1. Clone o Repositório
 ```bash
 git clone https://github.com/joaovitorl10/portfolio.git
 cd portfolio
 ```
 
-### 2. Personalize o conteúdo
-Edite os arquivos para adicionar suas informações:
-
-**`index.html`**:
-- Altere nome, título e descrição
-- Atualize links de redes sociais
+### 2. Personalize o Conteúdo
+**Arquivo `index.html`**:
+- Altere nome, título e biografia
+- Atualize links de redes sociais  
 - Modifique projetos na seção "Meus Projetos"
 - Ajuste informações de contato
 
-**`styles.css`**:
-- Personalize cores (busque por `#2563eb` para a cor principal)
-- Ajuste fontes e tamanhos
-- Modifique animações se necessário
+**Arquivo `styles.css`**:
+- Personalize cores (busque por `#2563eb`)
+- Ajuste fontes e espaçamentos
+- Modifique animações conforme necessário
 
-**`script.js`**:
-- Configure comportamentos específicos
-- Ajuste formulário de contato se integrar com serviço real
+### 3. Configure o Deploy
+O repositório já possui GitHub Actions configurado:
 
-### 3. Teste localmente
-Abra o arquivo `index.html` diretamente no navegador ou use um servidor local:
-
-```bash
-# Com Python
-python -m http.server 8000
-
-# Com Node.js (npx)
-npx serve
-
-# Com PHP
-php -S localhost:8000
+```yaml
+# .github/workflows/deploy.yml
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [ main ]
+# Deploy automático para GitHub Pages
 ```
 
-### 4. Publique no GitHub Pages
-
-**Opção A: Repositório novo**
-```bash
-# Inicialize o Git
-git init
-git add .
-git commit -m "Primeiro commit - Portfolio"
-
-# Crie um repositório no GitHub com nome 'portfolio'
-git remote add origin https://github.com/SEU_USUARIO/portfolio.git
-git branch -M main
-git push -u origin main
-```
-
-**Opção B: Repositório especial (para domínio personalizado)**
-```bash
-# Para usar como página principal: https://SEU_USUARIO.github.io
-# Crie um repositório com nome: SEU_USUARIO.github.io
-
-git remote add origin https://github.com/SEU_USUARIO/SEU_USUARIO.github.io.git
-git branch -M main
-git push -u origin main
-```
-
-### 5. Configurar GitHub Pages
-
-1. Vá para **Settings** do repositório
-2. Na seção **Pages**:
-   - Source: **Deploy from a branch**
-   - Branch: **main** / **(root)**
-   - Clique em **Save**
-
-3. Aguarde alguns minutos e acesse:
-   - **Repositório normal**: `https://SEU_USUARIO.github.io/portfolio`
-   - **Repositório especial**: `https://SEU_USUARIO.github.io`
-
-## 📱 Seções do Portfólio
-
-### 🏠 Início (Hero)
-- Apresentação pessoal
-- Call-to-action para projetos e contato
-- Links para redes sociais
-
-### 👤 Sobre
-- Biografia profissional
-- Grid de habilidades técnicas
-- Experiência e conhecimentos
-
-### 💼 Projetos
-- Cards com projetos principais
-- Links diretos para repositórios GitHub
-- Tags de tecnologias utilizadas
-
-### 📞 Contato
-- Formulário funcional
-- Links para redes sociais
-- Informações de contato
+### 4. Ative o GitHub Pages
+1. Vá em **Settings** → **Pages**
+2. Source: **Deploy from a branch**
+3. Branch: **main** / **(root)**
+4. Salve e aguarde o deploy
 
 ## 🎨 Personalização Avançada
 
-### Cores
-Principais variáveis de cor no CSS:
+### Cores Principais
 ```css
-/* Cor principal */
-#2563eb → Sua cor preferida
-
-/* Cor de hover */
-#1d4ed8 → Tom mais escuro da cor principal
+/* Cor primária azul */
+--primary: #2563eb;
+--primary-hover: #1d4ed8;
 
 /* Backgrounds */
-#f9fafb → Cor de fundo das seções
-#1f2937 → Cor do footer
+--bg-light: #f9fafb;
+--bg-dark: #1f2937;
 ```
 
-### Fontes
-Para alterar a fonte, substitua no `index.html`:
-```html
-<link href="https://fonts.googleapis.com/css2?family=SUA_FONTE:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-```
-
-E no CSS:
-```css
-body {
-    font-family: 'SUA_FONTE', sans-serif;
-}
-```
-
-### Projetos
-Para adicionar/editar projetos, modifique a seção `.projects-grid` no HTML:
+### Adicionando Novos Projetos
 ```html
 <div class="project-card">
     <div class="project-image">
-        <i class="fas fa-SEU_ICONE"></i>
+        <i class="fas fa-seu-icone"></i>
     </div>
     <div class="project-content">
         <h3>Nome do Projeto</h3>
-        <p>Descrição do projeto...</p>
+        <p>Descrição detalhada...</p>
         <div class="project-tags">
             <span class="tag">Tecnologia</span>
         </div>
         <div class="project-links">
-            <a href="URL_GITHUB" target="_blank" class="project-link">
+            <a href="github-url" class="project-link">
                 <i class="fab fa-github"></i> Código
-            </a>
-            <a href="URL_DEMO" target="_blank" class="project-link">
-                <i class="fas fa-external-link-alt"></i> Demo
             </a>
         </div>
     </div>
 </div>
 ```
 
-## 📧 Formulário de Contato
+## 📧 Configuração do Formulário
 
-O formulário atual é apenas visual. Para funcionalidade real, integre com:
-
-- **Formspree**: https://formspree.io
-- **EmailJS**: https://www.emailjs.com
-- **Netlify Forms**: (se hospedar na Netlify)
-
-### Exemplo com Formspree:
+O formulário está integrado com **FormSubmit**:
 ```html
-<form action="https://formspree.io/f/SEU_ID" method="POST">
-    <!-- campos do formulário -->
+<form action="https://formsubmit.co/email" method="POST">
+    <!-- Configurações automáticas -->
+    <input type="hidden" name="_subject" value="Nova mensagem do portfólio">
+    <input type="hidden" name="_captcha" value="false">
+    <!-- Campos do formulário -->
 </form>
 ```
 
 ## 🔧 Troubleshooting
 
-### Problema: GitHub Pages não atualiza
-- Aguarde 5-10 minutos após o push
-- Verifique se a branch está correta (main)
-- Force refresh: Ctrl+F5 ou Cmd+Shift+R
+### Deploy não atualiza
+- Aguarde 5-10 minutos após push
+- Verifique Actions na aba **Actions** do GitHub
+- Force refresh: `Ctrl+F5`
 
-### Problema: Fontes não carregam
-- Verifique conexão com internet
-- Teste com fontes locais se necessário
+### Problemas de codificação
+- Certifique-se que arquivos estão em UTF-8
+- Use `charset="UTF-8"` no HTML
 
-### Problema: Animações muito lentas
-- Ajuste durações no CSS
-- Remova animações se necessário para performance
+### Performance
+- Otimize imagens antes de adicionar
+- Mantenha CSS e JS minificados para produção
 
-## 📄 Licença
+## 📊 Analytics e Métricas
 
-Este projeto está sob a licença MIT. Você pode usar, modificar e distribuir livremente.
+Para adicionar Google Analytics:
+```html
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GA_TRACKING_ID');
+</script>
+```
 
 ## 🤝 Contribuições
 
-Sugestões e melhorias são bem-vindas! Sinta-se à vontade para:
-- Abrir issues
-- Enviar pull requests
-- Compartilhar ideias
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## 📞 Contato
+
+**João Vitor** - Estudante de Análise e Desenvolvimento de Sistemas
+
+- 📧 Email: jvitorcardoso056@gmail.com
+- 📱 Telefone: (11) 98680-1438
+- 💼 LinkedIn: [João Vitor](https://linkedin.com/in/joaovitorl10)
+- 🐙 GitHub: [@joaovitorl10](https://github.com/joaovitorl10)
 
 ---
 
-**🚀 Seu portfólio estará online em poucos minutos!**
+**🎯 Buscando oportunidade de estágio em TI!**
 
-**📧 Dúvidas?** Abra uma issue ou entre em contato!
-
-*Feito com ❤️ e muito ☕*
+*Desenvolvido com ❤️ e muito ☕ | © 2025 João Vitor*

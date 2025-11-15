@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jo„o Vitor - PortfÛlio</title>
+    <title>Jo√£o Vitor - Portf√≥lio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -13,10 +13,10 @@
     <header class="header">
         <nav class="nav">
             <div class="nav-logo">
-                <h2>Jo„o Vitor</h2>
+                <h2>Jo√£o Vitor</h2>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">InÌcio</a></li>
+                <li><a href="#home" class="nav-link">In√≠cio</a></li>
                 <li><a href="#about" class="nav-link">Sobre</a></li>
                 <li><a href="#projects" class="nav-link">Projetos</a></li>
                 <li><a href="#contact" class="nav-link">Contato</a></li>
@@ -33,18 +33,18 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1 class="hero-title">
-                Ol·, eu sou <span class="highlight">Jo„o Vitor</span>
+                Ol√°, eu sou <span class="highlight">Jo√£o Vitor</span>
             </h1>
-            <p class="hero-subtitle">Desenvolvedor Web | Estudante de ADS | Buscando Est·gio em TI
+            <p class="hero-subtitle">Desenvolvedor Web | Estudante de ADS | Buscando Est√°gio em TI
             <p class="hero-description">
-                Estudante determinado de An·lise e Desenvolvimento de Sistemas com 21 anos, 
-                <strong>em busca de uma oportunidade de est·gio em TI</strong>.
-                Apaixonado por tecnologia e em constante evoluÁ„o, criando soluÁıes digitais
-                inovadoras usando HTML, CSS, JavaScript, C/C++, Python, PHP, Node.js e Vue.js.
+                Estudante determinado de An√°lise e Desenvolvimento de Sistemas com 21 anos, 
+                <strong>em busca de uma oportunidade de est√°gio em TI</strong>. 
+                Apaixonado por tecnologia e em constante evolu√ß√£o, criando solu√ß√µes digitais 
+                inovadoras usando HTML, CSS, JavaScript, PHP, Node.js e Vue.js.
             </p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">Ver Projetos</a>
-                <a href="#contact" class="btn btn-secondary">Oportunidade de Est·gio</a>
+                <a href="#contact" class="btn btn-secondary">Oportunidade de Est√°gio</a>
             </div>
             <div class="hero-social">
                 <a href="https://github.com/joaovitorl10" target="_blank" class="social-link">
@@ -69,20 +69,20 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        Meu nome È Jo„o Vitor, tenho 21 anos e sou estudante de An·lise e Desenvolvimento de Sistemas.
+                        Meu nome √© Jo√£o Vitor, tenho 21 anos e sou estudante de An√°lise e Desenvolvimento de Sistemas.
                         Sou uma pessoa determinada e apaixonada por tecnologia, sempre em busca de novos conhecimentos 
-                        e desafios no mundo da programaÁ„o.
+                        e desafios no mundo da programa√ß√£o.
                     </p>
                     <p>
-                        Minha jornada comeÁou com algoritmos b·sicos em C/C++, onde aprendi os fundamentos da lÛgica de 
-                        programaÁ„o. EvoluÌ para o desenvolvimento web com HTML, CSS e JavaScript, e hoje estou explorando 
+                        Minha jornada come√ßou com algoritmos b√°sicos em C/C++, onde aprendi os fundamentos da l√≥gica de 
+                        programa√ß√£o. Evolu√≠ para o desenvolvimento web com HTML, CSS e JavaScript, e hoje estou explorando 
                         frameworks modernos como Vue.js e tecnologias backend com Node.js e PHP.
                     </p>
                     <p>
-                        Como estudante de ADS, estou sempre buscando aplicar os conhecimentos teÛricos em projetos pr·ticos.
-                        <strong>Estou em busca de uma oportunidade de est·gio em TI</strong> onde possa contribuir com minha 
-                        determinaÁ„o, aprender com profissionais experientes e crescer na ·rea de desenvolvimento de sistemas.
-                        Acredito que a paix„o pela tecnologia e a vontade de aprender s„o os pilares para uma carreira sÛlida.
+                        Como estudante de ADS, estou sempre buscando aplicar os conhecimentos te√≥ricos em projetos pr√°ticos.
+                        <strong>Estou em busca de uma oportunidade de est√°gio em TI</strong> onde possa contribuir com minha 
+                        determina√ß√£o, aprender com profissionais experientes e crescer na √°rea de desenvolvimento de sistemas.
+                        Acredito que a paix√£o pela tecnologia e a vontade de aprender s√£o os pilares para uma carreira s√≥lida.
                     </p>
                 </div>
                 <div class="skills">
@@ -99,14 +99,6 @@
                         <div class="skill-item">
                             <i class="fab fa-js"></i>
                             <span>JavaScript</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-code"></i>
-                            <span>C/C++</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-python"></i>
-                            <span>Python</span>
                         </div>
                         <div class="skill-item">
                             <i class="fab fa-php"></i>
@@ -146,8 +138,8 @@
                     <div class="project-content">
                         <h3>App Clima Vue.js</h3>
                         <p>
-                            <strong>Como funciona:</strong> AplicaÁ„o SPA (Single Page Application) que consulta APIs de clima em tempo real. 
-                            O usu·rio digita uma cidade e recebe informaÁıes como temperatura, umidade e previs„o. 
+                            <strong>Como funciona:</strong> Aplica√ß√£o SPA (Single Page Application) que consulta APIs de clima em tempo real. 
+                            O usu√°rio digita uma cidade e recebe informa√ß√µes como temperatura, umidade e previs√£o. 
                             Desenvolvida com Vue.js 3, Vite para build otimizado e design responsivo.
                         </p>
                         <p><strong>Tecnologias:</strong> Vue.js, JavaScript ES6+, API REST, CSS3, Vite</p>
@@ -159,11 +151,11 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/joaovitorl10/projeto-nodejs" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> CÛdigo
+                                <i class="fab fa-github"></i> C√≥digo
                             </a>
                         </div>
                         <div class="project-note">
-                            <small><i class="fas fa-info-circle"></i> <strong>Para testar:</strong> Clone o repo ? <code>cd app_clima</code> ? <code>npm install</code> ? <code>npm run dev</code></small>
+                            <small><i class="fas fa-info-circle"></i> <strong>Para testar:</strong> Clone o repo ‚Üí <code>cd app_clima</code> ‚Üí <code>npm install</code> ‚Üí <code>npm run dev</code></small>
                         </div>
                     </div>
                 </div>
@@ -174,7 +166,7 @@
                     </div>
                     <div class="project-content">
                         <h3>Algoritmos & Estruturas</h3>
-                        <p>ColeÁ„o de projetos de aprendizado em programaÁ„o: algoritmos de decis„o em C/C++, estruturas de dados, primeiras p·ginas HTML est·ticas e formul·rios b·sicos em PHP. EvoluÁ„o do aprendizado desde lÛgica atÈ web.</p>
+                        <p>Cole√ß√£o de projetos de aprendizado em programa√ß√£o: algoritmos de decis√£o em C/C++, estruturas de dados, primeiras p√°ginas HTML est√°ticas e formul√°rios b√°sicos em PHP. Evolu√ß√£o do aprendizado desde l√≥gica at√© web.</p>
                         <div class="project-tags">
                             <span class="tag">C/C++</span>
                             <span class="tag">HTML</span>
@@ -183,14 +175,14 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/joaovitorl10/primeiros-projetos" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> CÛdigo
+                                <i class="fab fa-github"></i> C√≥digo
                             </a>
                             <a href="https://raw.githack.com/joaovitorl10/primeiros-projetos/main/minha%20primeira%20pagina%20htmlindex.html" target="_blank" class="project-link demo-link">
                                 <i class="fas fa-external-link-alt"></i> Demo HTML
                             </a>
                         </div>
                         <div class="project-note">
-                            <small><i class="fas fa-info-circle"></i> Arquivos .exe e cÛdigos C++ - Para compilar: usar GCC ou Visual Studio</small>
+                            <small><i class="fas fa-info-circle"></i> Arquivos .exe e c√≥digos C++ - Para compilar: usar GCC ou Visual Studio</small>
                         </div>
                     </div>
                 </div>
@@ -200,13 +192,13 @@
                         <i class="fas fa-tv"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Clone Netflix</h3>
+                        <h3>Clones Netflix & Disney+</h3>
                         <p>
-                            <strong>Como funciona:</strong> RecriaÁ„o pixel-perfect das interfaces Netflix e  usando apenas HTML5 e CSS3. 
-                            Inclui navegaÁ„o responsiva, carrossÈis de filmes, hover effects e layout grid. 
-                            TambÈm possui calculadoras interativas em JavaScript para diferentes funÁıes (IMC, financeira, etc.).
+                            <strong>Como funciona:</strong> Recria√ß√£o pixel-perfect das interfaces Netflix e Disney+ usando apenas HTML5 e CSS3. 
+                            Inclui navega√ß√£o responsiva, carross√©is de filmes, hover effects e layout grid. 
+                            Tamb√©m possui calculadoras interativas em JavaScript para diferentes fun√ß√µes (IMC, financeira, etc.).
                         </p>
-                        <p><strong>Destaques:</strong> Design responsivo, animaÁıes CSS, JavaScript vanilla, Bootstrap integration</p>
+                        <p><strong>Destaques:</strong> Design responsivo, anima√ß√µes CSS, JavaScript vanilla, Bootstrap integration</p>
                         <div class="project-tags">
                             <span class="tag">HTML5</span>
                             
@@ -215,17 +207,17 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/joaovitorl10/projetos-html-css" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> CÛdigo
+                                <i class="fab fa-github"></i> C√≥digo
                             </a>
                             <a href="https://raw.githack.com/joaovitorl10/projetos-html-css/main/netflix-clone-completo1.html" target="_blank" class="project-link demo-link">
                                 <i class="fas fa-external-link-alt"></i> Demo Netflix
                             </a>
-                            <a href="https://raw.githack.com/joaovitorl10/projetos-html-css/main/-clone1.html" target="_blank" class="project-link demo-link">
-                                <i class="fas fa-external-link-alt"></i> 
+                            <a href="https://raw.githack.com/joaovitorl10/projetos-html-css/main/disney-clone1.html" target="_blank" class="project-link demo-link">
+                                <i class="fas fa-external-link-alt"></i> Demo Disney
                             </a>
                         </div>
                         <div class="project-note">
-                            <small><i class="fas fa-info-circle"></i> <strong>Sites est·ticos:</strong> Clique nos demos acima para testar online</small>
+                            <small><i class="fas fa-info-circle"></i> <strong>Sites est√°ticos:</strong> Clique nos demos acima para testar online</small>
                         </div>
                     </div>
                 </div>
@@ -235,8 +227,8 @@
                         <i class="fas fa-presentation"></i>
                     </div>
                     <div class="project-content">
-                        <h3>Simpress - Editor de ApresentaÁıes</h3>
-                        <p>Sistema web para criaÁ„o e ediÁ„o de apresentaÁıes com interface drag-and-drop. Desenvolvido em JavaScript vanilla com foco em usabilidade e design moderno. Permite criar slides, adicionar textos, imagens e animaÁıes.</p>
+                        <h3>Simpress - Editor de Apresenta√ß√µes</h3>
+                        <p>Sistema web para cria√ß√£o e edi√ß√£o de apresenta√ß√µes com interface drag-and-drop. Desenvolvido em JavaScript vanilla com foco em usabilidade e design moderno. Permite criar slides, adicionar textos, imagens e anima√ß√µes.</p>
                         <div class="project-tags">
                             
                             
@@ -245,14 +237,14 @@
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/joaovitorl10/projeto-simpress" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> CÛdigo
+                                <i class="fab fa-github"></i> C√≥digo
                             </a>
                         </div>
                         <div class="project-note">
-                            <small><i class="fas fa-info-circle"></i> Configure GitHub Pages no repositÛrio para demo online</small>
+                            <small><i class="fas fa-info-circle"></i> Configure GitHub Pages no reposit√≥rio para demo online</small>
                         </div>
                         <div class="project-note">
-                            <small><i class="fas fa-info-circle"></i> AplicaÁ„o web - Clique no "Demo Online" para testar</small>
+                            <small><i class="fas fa-info-circle"></i> Aplica√ß√£o web - Clique no "Demo Online" para testar</small>
                         </div>
                     </div>
                 </div>
@@ -262,8 +254,8 @@
                         <i class="fab fa-js"></i>
                     </div>
                     <div class="project-content">
-                        <h3>TypeScript & Projetos AvanÁados</h3>
-                        <p>Projetos desenvolvidos em TypeScript demonstrando conhecimento em tipagem est·tica, POO e padrıes de desenvolvimento. Inclui aplicaÁıes com melhor estrutura de cÛdigo e maior escalabilidade.</p>
+                        <h3>TypeScript & Projetos Avan√ßados</h3>
+                        <p>Projetos desenvolvidos em TypeScript demonstrando conhecimento em tipagem est√°tica, POO e padr√µes de desenvolvimento. Inclui aplica√ß√µes com melhor estrutura de c√≥digo e maior escalabilidade.</p>
                         <div class="project-tags">
                             <span class="tag">TypeScript</span>
                             
@@ -271,12 +263,12 @@
                             <span class="tag">Node.js</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" onclick="alert('RepositÛrio em desenvolvimento - Em breve!')" class="project-link">
+                            <a href="#" onclick="alert('Reposit√≥rio em desenvolvimento - Em breve!')" class="project-link">
                                 <i class="fab fa-github"></i> Em breve
                             </a>
                         </div>
                           <div class="project-note">
-                              <small><i class="fas fa-info-circle"></i> Projetos TypeScript - Para rodar: <code>npm install</code> ? <code>npm run build</code></small>
+                              <small><i class="fas fa-info-circle"></i> Projetos TypeScript - Para rodar: <code>npm install</code> ‚Üí <code>npm run build</code></small>
                           </div>
                       </div>
                   </div>
@@ -286,13 +278,13 @@
                           <i class="fas fa-robot"></i>
                       </div>
                       <div class="project-content">
-                          <h3>Chatbot IA B·sica</h3>
+                          <h3>Chatbot IA B√°sica</h3>
                           <p>
                               <strong>Como funciona:</strong> Interface de chat moderna com sistema de respostas inteligentes em JavaScript puro. 
-                              Desenvolvido com tema futebol (Messi), inclui reconhecimento de padrıes de texto, interface conversacional 
-                              responsiva estilo WhatsApp e lÛgica de fallback para respostas contextuais.
+                              Desenvolvido com tema futebol (Messi), inclui reconhecimento de padr√µes de texto, interface conversacional 
+                              responsiva estilo WhatsApp e l√≥gica de fallback para respostas contextuais.
                           </p>
-                          <p><strong>Destaques:</strong> UI/UX moderno, lÛgica conversacional, design responsivo, avatar tem·tico</p>
+                          <p><strong>Destaques:</strong> UI/UX moderno, l√≥gica conversacional, design responsivo, avatar tem√°tico</p>
                           <div class="project-tags">
                               
                               <span class="tag">AI Logic</span>
@@ -301,14 +293,14 @@
                           </div>
                           <div class="project-links">
                               <a href="https://github.com/joaovitorl10/projetos-html-css" target="_blank" class="project-link">
-                                  <i class="fab fa-github"></i> CÛdigo
+                                  <i class="fab fa-github"></i> C√≥digo
                               </a>
                               <a href="https://raw.githack.com/joaovitorl10/projetos-html-css/main/ia-basica.html" target="_blank" class="project-link demo-link">
                                   <i class="fas fa-external-link-alt"></i> Demo Chat
                               </a>
                           </div>
                           <div class="project-note">
-                              <small><i class="fas fa-info-circle"></i> <strong>Chatbot tem·tico:</strong> Converse sobre futebol e teste as respostas inteligentes</small>
+                              <small><i class="fas fa-info-circle"></i> <strong>Chatbot tem√°tico:</strong> Converse sobre futebol e teste as respostas inteligentes</small>
                           </div>
                       </div>
                   </div>
@@ -321,10 +313,10 @@
                           <h3>Calculadora Convencional</h3>
                           <p>
                               <strong>Como funciona:</strong> Calculadora convencional simples e funcional desenvolvida em JavaScript vanilla. 
-                              Interface moderna com design responsivo, suporte a teclado, operaÁıes b·sicas (+, -, ◊, ˜), 
-                              n˙meros decimais e funÁıes de limpeza. Design estilo calculadora cl·ssica com display digital.
+                              Interface moderna com design responsivo, suporte a teclado, opera√ß√µes b√°sicas (+, -, √ó, √∑), 
+                              n√∫meros decimais e fun√ß√µes de limpeza. Design estilo calculadora cl√°ssica com display digital.
                           </p>
-                          <p><strong>Destaques:</strong> Interface intuitiva, suporte a teclado, design responsivo, operaÁıes matem·ticas</p>
+                          <p><strong>Destaques:</strong> Interface intuitiva, suporte a teclado, design responsivo, opera√ß√µes matem√°ticas</p>
                           <div class="project-tags">
                               
                               <span class="tag">Math Logic</span>
@@ -333,14 +325,14 @@
                           </div>
                           <div class="project-links">
                               <a href="https://github.com/joaovitorl10/calculadora" target="_blank" class="project-link">
-                                  <i class="fab fa-github"></i> CÛdigo
+                                  <i class="fab fa-github"></i> C√≥digo
                               </a>
                               <a href="./calculadora.html" target="_blank" class="project-link demo-link">
                                   <i class="fas fa-external-link-alt"></i> Demo Calculadora
                               </a>
                           </div>
                           <div class="project-note">
-                              <small><i class="fas fa-info-circle"></i> <strong>Calculadora cl·ssica:</strong> Interface moderna com funcionalidades completas e suporte a teclado</small>
+                              <small><i class="fas fa-info-circle"></i> <strong>Calculadora cl√°ssica:</strong> Interface moderna com funcionalidades completas e suporte a teclado</small>
                           </div>
                       </div>
                   </div>
@@ -353,10 +345,10 @@
                           <h3>Jogo de Xadrez</h3>
                           <p>
                               <strong>Como funciona:</strong> Jogo de xadrez desenvolvido em JavaScript com interface moderna e responsiva. 
-                              Inclui todas as regras oficiais do xadrez, movimentaÁ„o das peÁas, validaÁ„o de jogadas, 
-                              sistema de turnos e interface drag-and-drop para uma experiÍncia fluida de jogo.
+                              Inclui todas as regras oficiais do xadrez, movimenta√ß√£o das pe√ßas, valida√ß√£o de jogadas, 
+                              sistema de turnos e interface drag-and-drop para uma experi√™ncia fluida de jogo.
                           </p>
-                          <p><strong>Destaques:</strong> LÛgica completa do xadrez, interface intuitiva, validaÁ„o de movimentos, design moderno</p>
+                          <p><strong>Destaques:</strong> L√≥gica completa do xadrez, interface intuitiva, valida√ß√£o de movimentos, design moderno</p>
                           <div class="project-tags">
                               <span class="tag">JavaScript</span>
                               <span class="tag">Game Logic</span>
@@ -365,7 +357,7 @@
                           </div>
                           <div class="project-links">
                               <a href="https://github.com/joaovitorl10/projeto-xadrez" target="_blank" class="project-link">
-                                  <i class="fab fa-github"></i> CÛdigo
+                                  <i class="fab fa-github"></i> C√≥digo
                               </a>
                           </div>
                           <div class="project-note">
@@ -378,17 +370,17 @@
       </section>    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Vamos Conversar? Busco Est·gio em TI!</h2>
+            <h2 class="section-title">Vamos Conversar? Busco Est√°gio em TI!</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <p>
-                        <strong>?? Busco oportunidade de est·gio em TI!</strong> 
-                        Estou disponÌvel para est·gios em desenvolvimento web, suporte tÈcnico, an·lise de sistemas 
-                        ou qualquer ·rea de tecnologia. Como estudante de ADS, tenho flexibilidade de hor·rios 
+                        <strong>üéØ Busco oportunidade de est√°gio em TI!</strong> 
+                        Estou dispon√≠vel para est√°gios em desenvolvimento web, suporte t√©cnico, an√°lise de sistemas 
+                        ou qualquer √°rea de tecnologia. Como estudante de ADS, tenho flexibilidade de hor√°rios 
                         e muita vontade de aprender e contribuir com a equipe.
                     </p>
                     <p>
-                        Possuo conhecimento pr·tico em desenvolvimento front-end e back-end, 
+                        Possuo conhecimento pr√°tico em desenvolvimento front-end e back-end, 
                         sou proativo, determinado e sempre disposto a enfrentar novos desafios. 
                         Entre em contato para conversarmos sobre oportunidades!
                     </p>
@@ -418,18 +410,18 @@
                             <i class="fab fa-linkedin"></i>
                             <div>
                                 <span><strong>LinkedIn</strong></span>
-                                <small>Jo„o Vitor</small>
+                                <small>Jo√£o Vitor</small>
                             </div>
                         </a>
                     </div>
                     <div class="portfolio-info">
-                        <h4><i class="fas fa-globe"></i> Sobre este PortfÛlio</h4>
+                        <h4><i class="fas fa-globe"></i> Sobre este Portf√≥lio</h4>
                         <p>
-                            Este portfÛlio foi desenvolvido do zero usando <strong>HTML5, CSS3 e JavaScript</strong> vanilla. 
-                            Hospedado no <strong>GitHub Pages</strong> com deploy autom·tico via GitHub Actions.
+                            Este portf√≥lio foi desenvolvido do zero usando <strong>HTML5, CSS3 e JavaScript</strong> vanilla. 
+                            Hospedado no <strong>GitHub Pages</strong> com deploy autom√°tico via GitHub Actions.
                         </p>
                         <p>
-                            <strong>?? Link permanente:</strong> 
+                            <strong>üîó Link permanente:</strong> 
                             <a href="https://joaovitorl10.github.io/portfolio" target="_blank" class="portfolio-link">
                                 joaovitorl10.github.io/portfolio
                             </a>
@@ -462,7 +454,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Jo„o Vitor. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Jo√£o Vitor. Todos os direitos reservados.</p>
             <div class="footer-social">
                 <a href="https://github.com/joaovitorl10" target="_blank">
                     <i class="fab fa-github"></i>
@@ -477,6 +469,5 @@
     <script src="script.js"></script>
 </body>
 </html>
-
 
 
